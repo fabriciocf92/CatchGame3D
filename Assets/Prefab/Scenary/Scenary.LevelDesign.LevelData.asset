@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670ad16e6abf4aa4b9b9c6bb5ea81170, type: 3}
+  m_Name: Scenary.LevelDesign.LevelData
+  m_EditorClassIdentifier: 
+  levelData:
+    prefabGUID: 02bef1d27f76d2744a8b6e4af652c8e8
+    mainSet: {fileID: 11400000, guid: 5c68f49ae842d3c44841737380909fb8, type: 2}
+    objectsSet: {fileID: 11400000, guid: 338340c5f485df24cb45c8831b969b62, type: 2}
+    optionsSettings:
+      moveSnap: 1
+      rotationSnap: 22.5
+      wallsManipulatorsHeight: 1
+      hoverResponsiveHandles: 1
+    visibilitySettings:
+      movement: 1
+      rotation: 1
+      walls: 1
+      wallsMovement: 1
+      wallsRotation: 1
+      wings: 1
+      wingsGrowth: 1
+      wingsLines: 1
+      objects: 1
+      floors: 1
+      hidden: 0
+    wallsData:
+    - simpleObjectData:
+        fileID: 5453483255689962862
+      type: 0
+      wingsData:
+      - growDirection: {x: 0, y: 0, z: 1}
+        chainFileIDs: ee7dbb87b19aa23c0e45802492d8540a558c6400170a8407333ce55aa97a8327199c0789e07fcd7698bf291688c7b63effb2e7eee8de5d0017e458ed068c3e6d1c178c00e0e3c708c532aae39ddb1012c03ca2e4993b1e5f2a07c792d0f1a17b61aba999320af03736b29597dfc82966be2e962446b5582b6d92dce6e95b0a071d3505cd5fd79b03d0bc7bca6dc4de13
+        capFileID: 6178375870958836710
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: 7083328248232634191
+    - simpleObjectData:
+        fileID: 3509076464854183847
+      type: 0
+      wingsData:
+      - growDirection: {x: 0, y: 0, z: 1}
+        chainFileIDs: 8ee1c7a8780bcc61b7f5a8bcefbe7265
+        capFileID: 2728161888747650324
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: f4e6e9216061ff013abe1a9910e44830d85c175d32164f680b2b1c3624755321e6dcd711567b292da7b337ac875f4c20f2ab8e3596b0f94160b5f4b68954a77cb1c3272a02f05e3129ce9d2f4af73967f279982d12db5e62b5c2ad948676680e7543353e5333640bd8e2d55959f07f78f48708b730925a78e2380be33e78094a
+        capFileID: 3512619231169238349
+    - simpleObjectData:
+        fileID: 6725457347927773165
+      type: 0
+      wingsData:
+      - growDirection: {x: 0, y: 0, z: 1}
+        chainFileIDs: 
+        capFileID: 543189519452643613
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: cf1fa22a3baaba03657b56a4e96d0b4743233e988cd8b079365fef43a25f9d0f9b639a8555b53f371f490389ef72c46b2c153f455dfe0748744f4fce446a7f0696a1d5d4dc9b1632b9e2b64d28f2de2250696b6282762340faf71b1dadb6aa3cde25fcaf972b0c4d4e9a5f5478dfd14ddeab0c66eb7d78737011735d52bcbe2e3f5c363e3a868f66c0ae3f70ad05ea6e
+        capFileID: 1783105064160411128
+    - simpleObjectData:
+        fileID: 6503140302333846565
+      type: 0
+      wingsData:
+      - growDirection: {x: 0, y: 0, z: 1}
+        chainFileIDs: 603e010e4765dd2e1b392dd70bcf173cf9a7d9c5cea7c419d2bbdca9f4696f4cd5e847cddaad411ef3ce2d666a368b71b62f51d7bbbe4a7ea627a425f80bbe2a
+        capFileID: 7956950052466119585
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: db5712d7000d392f030289d1064f0220bc916523156a643d85e19ed883be761a5a6d60196b226f4dd6e7c3497964963da9b0a8b7d5c650763af20bbfa3914832d2c1f1ed4ac3c64426cb8b2b6cbe1910
+        capFileID: 96425110335529437
+    - simpleObjectData:
+        fileID: 7600288845389329875
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: 
+        capFileID: 3051622352309261275
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: 6489797907989849694
+    - simpleObjectData:
+        fileID: 802561245883340048
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: 
+        capFileID: 7927754539754780964
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: 3278274336866284539
+    - simpleObjectData:
+        fileID: 4921981058189931766
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: 
+        capFileID: 2944382915015237616
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: 8621301283851871011
+    - simpleObjectData:
+        fileID: 7216230922783059732
+      type: 1
+      wingsData:
+      - growDirection: {x: 1, y: 0, z: 0}
+        chainFileIDs: 
+        capFileID: 9048019325339065200
+      - growDirection: {x: 0, y: 0, z: -1}
+        chainFileIDs: 
+        capFileID: 447376799504038971
+    simpleObjectsData: []
+    floorsData:
+    - simpleObjectData:
+        fileID: 9019119122046866202
+      prefabGUID: 4cf599942c7e83e4bbc35b67a488e70a
+      size: 2
+      tilesFileIDsWidth: 10
+      startingRow: 9
+      startingCol: 0
+      tilesFileIDs: eadf41edcf54f30bcf340b851d2d4162e78287336db6ba314744e8ab7eb6c552252438181bdc4a5711b38e7914dcf275868501b6339a024c27cee7f22b2506119198d3c94a08304416ed60949b842b131b9e7bc353e2e24e8b6cb33f5f096f5b2202483396fbe76502cbda5b6bd9df1a6fe129c5a5fa3426ce26ec5f7c55053a1809ed14ac63944b3e967cf264754f421b2eb9c2559c2260e34aa95f6f807313870caada5e83f834a22f3fac51d2502615b67699bb4d1a41f25b5c5200e7087abc64a2f02890f402c824f19372eda075f3ce6153b40a3e5209f4369bc679ab42b35f14a57de16d340d01bbcb9c527b2e33bee7bd55a6d4052ed3c68d15b3895b5e5e2ffa4702ac725d5577b13f926f12ac8a3ade6de67b5109f735e5e6ad826da5f812be50e63f291f2b53ce80f3d342141347df7f1ca414fd7ffea4e656b865732852feb71f9223a58dd9d5154923343120ac81e857a6710288f099f502655885b6f30bf9785c11350cf4a5ea73ec2ae6df275e0645cb496d7dec807144f8660dacfa1b0ab0563ec4e50c9dc6982675fe073ce6e0b79061d7af52e08403c338b7b747d05a25f224817e4241b310504d28ee0bf3a5b2de588b7fd8c15068ce38849578fd912203335232e1250557d35b17754439e9dfce697a2464c0b40c764a1abc751f2cdea3496d397bd9aa2b172be85517f437004e68f6ec8ef76b9f1c54f6911ab88554455da9b3cc1c18daa321c7b1a35eaa0e337b18b190133687821b7ad552e26a400c64633105552c31af5332ca8103fe53cf088718caa9bd1ce73f2cac03d2f3ebea65339ff86ae604f840993779c6de6f057c5cab153b4054fb169b8a5d93d1818a356cbf42df17d1a778a0905202dfa75a228d55cff98c4d8d57ba29fdc97f71226b3948aa9dc485990aa9c2152927faad38bde671c31011a458b0bd510a1072be0d6e9d8a78f1f7972b1fd460124ab56876ab5714c5a2617e0488043df533fcee2fffef1f582de7fe381e3082c921ebf9733adc459031a7dc427869d7f4481b124a278ff65213064516e6a4e71957d9b95dc34c74d181e9ce4b1045274735dec04cfff00c2e1c6695012d2e772e79f73c0c12271de50f4f6b1f
