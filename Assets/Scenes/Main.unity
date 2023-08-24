@@ -313,7 +313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36e1af2ef41de99499468466f26bf9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MouseDelta: {x: 0, y: 0}
   MoveComposite: {x: 0, y: 0}
 --- !u!143 &213494486
 CharacterController:
@@ -774,7 +773,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712556760}
-  m_LocalRotation: {x: 0.16646473, y: -0.000000018968908, z: 0.000000003202335, w: 0.98604745}
+  m_LocalRotation: {x: 0.16646473, y: 0.000000018968906, z: -0.0000000032023346, w: 0.98604745}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -987,7 +986,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.1843257, y: 0.000000022371886, z: -0.000000004195604, w: 0.9828652}
+  m_LocalRotation: {x: 0.1843257, y: -0.000000022371886, z: 0.000000004195604, w: 0.9828652}
   m_LocalPosition: {x: 0, y: 2.275, z: -9.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1098,7 +1097,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095290906}
-  m_LocalRotation: {x: 0.18432568, y: 0.000000016911555, z: -0.0000000031715777, w: 0.9828652}
+  m_LocalRotation: {x: 0.18432568, y: -0.000000016911555, z: 0.0000000031715777, w: 0.9828652}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1299,10 +1298,6 @@ PrefabInstance:
     - target: {fileID: 3606018969305353778, guid: 9c407d0cfd9c177409b563ca7aaa7e34, type: 3}
       propertyPath: m_RootOrder
       value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 3797831839859905407, guid: 9c407d0cfd9c177409b563ca7aaa7e34, type: 3}
-      propertyPath: m_Size.z
-      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4760451336552180236, guid: 9c407d0cfd9c177409b563ca7aaa7e34, type: 3}
       propertyPath: m_Size.z

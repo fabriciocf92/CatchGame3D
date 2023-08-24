@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 
 public class InputReader : MonoBehaviour, Controls.IPlayerActions
 {
-    public Vector2 MouseDelta;
     public Vector2 MoveComposite;
     
     public Action OnJumpPerformed;
@@ -32,11 +31,6 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
             return;
 
         OnJumpPerformed?.Invoke();
-    }
-
-    public void OnLook(InputAction.CallbackContext context)
-    {
-        MouseDelta = context.ReadValue<Vector2>();
     }
 
     public void OnMove(InputAction.CallbackContext context)
