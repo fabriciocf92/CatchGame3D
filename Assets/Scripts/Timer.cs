@@ -1,13 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Timer : MonoBehaviour
+public class Timer : Singleton<Timer>
 {
     private float StartTime;
     private int PassedSeconds;
     private Text timer;
     public GameObject score;
-    private int TotalTime = 30;
+    private readonly int TotalTime = 30;
+
+    public delegate void Finalizer();
+    public event Finalizer AfterFinished;
 
     void Start()
     {
@@ -27,7 +30,8 @@ public class Timer : MonoBehaviour
             {
                 score.SetActive(true);
                 Time.timeScale = 0;
-                this.enabled = false; 
+                this.enabled = false;
+                AfterFinished?.Invoke();
             }
         }
     }

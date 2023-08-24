@@ -14,7 +14,7 @@ public class Coin : MonoBehaviour
 
     public void Spawn()
     {
-        this.transform.position = ScenaryArea.Instance.getRandomPoint(this.GetComponent<Collider>());
+        transform.position = ScenaryArea.Instance.getRandomPoint(this.GetComponent<Collider>());
     }
 
     private void OnCollisionEnter(Collision collision)

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ScenaryArea : MonoBehaviour
+public class ScenaryArea : Singleton<ScenaryArea>
 {
 
     private float MinX;
@@ -18,18 +18,19 @@ public class ScenaryArea : MonoBehaviour
     }
 
 
-    public static ScenaryArea Instance { get; private set; }
+    //public static ScenaryArea Instance { get; private set; }
     
-    private void Awake()
+    protected override void Awake()
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-        }
-        else
-        {
-            Instance = this;
-        }
+        base.Awake();
+        //if (Instance != null && Instance != this)
+        //{
+        //    Destroy(this);
+        //}
+        //else
+        //{
+        //    Instance = this;
+        //}
 
         Vector3 LeftWall = GameObject.Find("Left Wall").transform.position;
         var RightWall = GameObject.Find("Right Wall").transform.position;
