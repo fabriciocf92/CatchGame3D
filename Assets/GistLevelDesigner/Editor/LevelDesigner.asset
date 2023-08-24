@@ -15,11 +15,6 @@ MonoBehaviour:
   managed:
   - identity: 2
     instanceID: 0
-    GUID: 9c407d0cfd9c177409b563ca7aaa7e34
-    fileID: 6165124388550204987
-    rootGUID: 02bef1d27f76d2744a8b6e4af652c8e8
-  - identity: 2
-    instanceID: 0
     GUID: 65086beac55f1e748aeaf5d4aed0fc3e
     fileID: 403309689
     rootGUID: ff840b67262be7b40b9dd329f77c907b
