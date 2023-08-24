@@ -9,8 +9,9 @@ public class PlayerScore : MonoBehaviour
     {
         if (hit.gameObject.CompareTag("Coin"))
         {
-            score += hit.gameObject.GetComponent<Coin>().Value;
-            hit.gameObject.SetActive(false);
+            var coin = hit.gameObject.GetComponent<Coin>();
+            score += coin.Value;
+            coin.Spawn();
         }
     }
 
