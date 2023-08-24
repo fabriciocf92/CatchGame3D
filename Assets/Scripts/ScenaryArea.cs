@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ScenaryArea : MonoBehaviour
@@ -24,7 +22,6 @@ public class ScenaryArea : MonoBehaviour
     
     private void Awake()
     {
-        // If there is an instance, and it's not me, delete myself.
         if (Instance != null && Instance != this)
         {
             Destroy(this);
@@ -42,12 +39,12 @@ public class ScenaryArea : MonoBehaviour
         float[] ZValues = { LeftWall[2], RightWall[2], ForwardWall[2], BackwardWall[2] };
         float[] YValues = { 1.0f, 3.5f };
 
-        MinX = Mathf.Min(XValues);
-        MaxX = Mathf.Max(XValues);
+        MinX = Mathf.Min(XValues) + 0.1f;
+        MaxX = Mathf.Max(XValues) - 0.1f;
         MinY = Mathf.Min(YValues);
         MaxY = Mathf.Max(YValues);
-        MinZ = Mathf.Min(ZValues);
-        MaxZ = Mathf.Max(ZValues);
+        MinZ = Mathf.Min(ZValues) + 0.1f;
+        MaxZ = Mathf.Max(ZValues) - 0.1f;
     }
 
 }

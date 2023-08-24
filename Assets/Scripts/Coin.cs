@@ -1,8 +1,10 @@
+using System;
 using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
     public int Value;
+    public bool Collided = false;
 
     private void Start()
     {
@@ -12,7 +14,11 @@ public class Coin : MonoBehaviour
     public void Spawn()
     {
         this.transform.position = ScenaryArea.Instance.getRandomPoint(this.GetComponent<Collider>());
-        this.gameObject.SetActive(true);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Collided = true;
     }
 
 }

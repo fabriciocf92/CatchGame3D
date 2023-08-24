@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerJumpState : PlayerBaseState
 {
-    private readonly int JumpHash = Animator.StringToHash("Jump");
+    private readonly int JumpHash = Animator.StringToHash(Constants.Jump);
     private const float CrossFadeDuration = 0.1f;
 
     public PlayerJumpState(PlayerStateMachine stateMachine) : base(stateMachine) { }
