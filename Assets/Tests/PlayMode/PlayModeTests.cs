@@ -1,13 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 using UnityEngine.InputSystem;
-using System;
 
-public class Movements : InputTestFixture
+public class PlayModeTests : InputTestFixture
 {
 
     Keyboard keyboard;
@@ -51,6 +49,20 @@ public class Movements : InputTestFixture
             yield return new WaitForSeconds(0.1f);
         }
         Assert.That(controller.isGrounded);
+    }
+
+    [UnityTest]
+    public IEnumerator CheckCoinCollisions()
+    {
+        var CoinPrefab = MonoBehaviour.Instantiate(Resources.Load<GameObject>(Constants.GoldCoinPrefab));
+        var coin = CoinPrefab.GetComponent<Coin>();
+        for (var i = 0; i < 100; i++)
+        {
+            coin.Spawn();
+        }
+        yield return null;
+        Assert.That(!coin.Collided);
+
     }
 
 }
