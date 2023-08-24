@@ -14,13 +14,13 @@ public class Timer : Singleton<Timer>
 
     void Start()
     {
-        StartTime = Time.realtimeSinceStartup;
+        StartTime = Time.timeSinceLevelLoad;
         timer = GetComponent<Text>();
     }
 
     void Update()
     {
-        var NewPassedSeconds = (int)(Time.realtimeSinceStartup - StartTime);
+        var NewPassedSeconds = (int)(Time.timeSinceLevelLoad - StartTime);
         if (NewPassedSeconds > PassedSeconds)
         {
             PassedSeconds = NewPassedSeconds;
