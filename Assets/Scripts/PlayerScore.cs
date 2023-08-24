@@ -11,10 +11,11 @@ public class PlayerScore : MonoBehaviour
     public Text RecordText;
     private float LastCoinTime = 0;
 
-    private void OnEnable()
+    private void Start()
     {
         Timer.Instance.AfterFinished += WriteScore;
     }
+
     private void OnDisable()
     {
         Timer.Instance.AfterFinished -= WriteScore;
