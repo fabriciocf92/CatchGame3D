@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4720966e36f36e54f993c5189140844b, type: 3}
   m_Name: LevelDesigner
   m_EditorClassIdentifier: 
-  managed: []
+  managed:
+  - identity: 2
+    instanceID: 0
+    GUID: 9c407d0cfd9c177409b563ca7aaa7e34
+    fileID: 6165124388550204987
+    rootGUID: 02bef1d27f76d2744a8b6e4af652c8e8
+  - identity: 2
+    instanceID: 0
+    GUID: 65086beac55f1e748aeaf5d4aed0fc3e
+    fileID: 403309689
+    rootGUID: ff840b67262be7b40b9dd329f77c907b
